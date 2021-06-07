@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after { box-sizing: inherit;}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    width: auto;
+    height: 25vh;
+    margin: 2px;
+    padding: 2px;
+    background: url(header-banner.jpg);
+    background-size: contain;
+    font-size: 1.5em;
+    color: black;
+    border: solid 3px grey;    
+}
+
+header h1{
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 3em;    
+}
+
+header h2{
+    text-align: center;
+    
+}
+
+.menu-bar{
+    width: auto;
+    height: 12vh;
+    margin: 2px;
+    padding: 2px;  
+    font-size: 1.5em;
+    color: black;
+    border: solid 3px grey;
+}
+
+.menu-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.menu-bar ul li{
+    list-style: none;
+    margin: 35px 50px;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    pointer: cursor;
+    color: grey;
+}
+
+.menu-bar ul a:not(:last-child):after{
+    content: "|";
+    margin: 10px;
+    color: #000000;
+}
+
+#text{
+    width: auto;
+    height: 30vh;
+    margin: 2px;
+    padding: 2px;  
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: black;
+    border: solid 3px grey;
+    text-align: justify;
+}
+
+#text p{
+    margin-top: 15px;
+}
+
+#btn{
+    text-align: center;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: 0.3px solid;
+    text-align: center;
+    line-height: 30px;
+    color: black;    
+}
+
+footer{
+    width: auto;
+    height: 5vh;
+    border: solid 3px grey;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}

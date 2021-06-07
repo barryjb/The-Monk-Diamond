@@ -1,0 +1,18 @@
+Home Page
+
+    header
+put diagonal lines in
+
+    menu
+put vertical lines in
+
+    text
+
+
+    button
+little bit bigger
+move button down the page to space it away from paragraph
+
+    footer
+
+
